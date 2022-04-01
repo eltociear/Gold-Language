@@ -52,7 +52,15 @@ export { myGoldProgram };
 ```
 
 For more tutorials, go into the **tutorials** folder and check out some of the files inside of there.
+## Appendix
 
-#### Authors
+In order to run any of these projects, you will need to have Code.org open, and an project full of all the screens.  
+You can also check out the full build here: [SATQTSTC](https://github.com/Colack/SATQTSTC)
 
-- [@Colack](https://www.github.com/Colack)
+
+#### Used By
+
+This project is used in the following projects:
+
+- [Gold](https://github.com/Shining-Gold-Studios/Gold-Language)
+
