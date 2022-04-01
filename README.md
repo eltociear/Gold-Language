@@ -53,7 +53,11 @@ export { myGoldProgram };
 
 For more tutorials, go into the **tutorials** folder and check out some of the files inside of there.
 
-### Used By
+#### Contribution
+
+Wanting to Contribute to **Gold**? Check out the *contributing.md* file to learn how you can contribute to the **Gold** language.
+
+##### Used By
 
 This project is used in the following projects:
 
