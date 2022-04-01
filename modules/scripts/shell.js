@@ -67,6 +67,10 @@ function goldShellLoad() {
 
             goldShell();
 
+        } else if (result.shell == "reload") {
+                   
+            goldShell();
+                   
         } else {
 
             currentError.code = errorCodes[3].code;
