@@ -23,9 +23,9 @@ npm i colors
 
 Check the packages out here:
 
-[prompt](https://www.npmjs.com/package/prompt)
-[open](https://www.npmjs.com/package/open)
-[colors](https://www.npmjs.com/package/colors)
+[prompt](https://www.npmjs.com/package/prompt)   
+[open](https://www.npmjs.com/package/open)   
+[colors](https://www.npmjs.com/package/colors)   
 
 
 ### Commands/Booting 
@@ -51,18 +51,18 @@ npm run index
 #### Programming
 **Gold** is ran inside of the **.gold** file extension, so your directory would look something like this:   
 
-*.bat*
-*Blank-Project*
-*info*
-*modules*
-*myProjectSettings*   
-*node_modules*  
-*package-lock.json*
-*package.json*
-*program.gold*
-*README.md*
-*run.bat*
-*shell.bat*
+*.bat*   
+*Blank-Project*   
+*info*   
+*modules*   
+*myProjectSettings*      
+*node_modules*     
+*package-lock.json*   
+*package.json*   
+*program.gold*   
+*README.md*   
+*run.bat*    
+*shell.bat*  
 
 
 The **.gold** file is your program.   
