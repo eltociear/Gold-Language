@@ -51,14 +51,19 @@ npm run index
 #### Programming
 **Gold** is ran inside of the **.gold** file extension, so your directory would look something like this:   
 
-*tutorials*
-*modules*   
+*.bat*
+*Blank-Project*
+*info*
+*modules*
+*myProjectSettings*   
 *node_modules*  
-*index.js*  
-*package-lock.json*   
-*package.json*   
-**program.gold**   
-*README.md*    
+*package-lock.json*
+*package.json*
+*program.gold*
+*README.md*
+*run.bat*
+*shell.bat*
+
 
 The **.gold** file is your program.   
 
