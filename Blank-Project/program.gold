@@ -1,0 +1,3 @@
+// Code by: YOUR_NAME // 
+var myGoldProgram; 
+export { myGoldProgram };
