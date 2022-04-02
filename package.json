@@ -1,0 +1,24 @@
+{
+  "name": "gold-language",
+  "version": "1.0.0",
+  "description": "Gold Coding Language",
+  "main": "./modules/scripts/boot/shell.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "node ./modules/scripts/npm/setup.js",
+    "index": "node ./modules/util/index.js",
+    "delete": "node ./modules/scripts/files/delete.js",
+    "save": "node ./modules/scripts/files/save.js",
+    "version": "node ./modules/scripts/util/currentVersion.js",
+    "run": "node ./modules/scripts/boot/run.js",
+    "shell": "node ./modules/scripts/boot/shell.js"
+  },
+  "author": "Colack",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "open": "^8.4.0",
+    "prompt": "^1.2.2"
+  }
+}
