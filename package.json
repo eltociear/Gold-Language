@@ -1,6 +1,6 @@
 {
   "name": "gold-language",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gold Coding Language",
   "main": "./modules/scripts/boot/shell.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "delete": "node ./modules/scripts/files/delete.js",
     "save": "node ./modules/scripts/files/save.js",
     "version": "node ./modules/scripts/util/currentVersion.js",
-    "run": "node ./modules/scripts/boot/run.js",
+    "run": "node ./modules/interpreters/goldInt.js",
     "shell": "node ./modules/scripts/boot/shell.js"
   },
   "author": "Colack",
