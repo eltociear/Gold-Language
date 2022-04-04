@@ -1,5 +1,4 @@
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![Discord](https://img.shields.io/discord/945836676272517201?label=2%20Identical%20Rocks)]()
 
 # Gold-Language
 The **Gold** Programming Language is an Programming Language designed to be really easy to
@@ -112,5 +111,9 @@ Wanting to Contribute to **Gold**? Check out the *contributing.md* inside of the
 
 This project is used in the following projects:
 
-- [Gold](https://github.com/Shining-Gold-Studios/Gold-Language)
+- [Gold](https://github.com/Shining-Gold-Studios/Gold-Language)   
+
+
+
+Have any more questions? Join our Discord - [Discord](https://discord.gg/CUJrdW5vKn)
 
