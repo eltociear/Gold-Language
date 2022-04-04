@@ -28,7 +28,7 @@ Check the packages out here:
 [colors](https://www.npmjs.com/package/colors)   
 
 
-### Commands/Booting 
+# Commands/Booting 
 
 There are several ways that you can run your **Gold** file:
 
@@ -49,7 +49,7 @@ npm run index
 - *install.bat*: Install all packages required in the current Version.
 - *run.bat*: Run currently saved gold file.
 
-#### Programming
+# Programming
 **Gold** is ran inside of the **.gold** file extension, so your directory would look something like this:   
 
 */.bat*   
@@ -87,7 +87,7 @@ var myGoldProgram = {
 export { myGoldProgram };
 ```
 
-##### Advanced Programming
+# Advanced Programming
 
 Think you got the hang of the **Gold** language? There are still many different things that you can do with the **Gold** language. Check out some tutorials inside of the wiki, or follow the basic Coding guide Below:
 
@@ -104,11 +104,11 @@ logvaluefalse // What to log if your if statement is false
 
 ```
 
-###### Contribution
+# Contribution
 
 Wanting to Contribute to **Gold**? Check out the *contributing.md* inside of the info folder to learn how you can contribute to the **Gold** language.
 
-###### Used By
+# Used By
 
 This project is used in the following projects:
 
