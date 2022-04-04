@@ -44,19 +44,20 @@ npm run index
 
 - *shell.bat*: opens the Gold-Shell.
 - *setup.bat*: creates an blank directory with some setup files.
-- *delete.bat*: deletes all current saved programs.
 - *index.bat*: Boot directly into the Index.js File.
 - *save.bat*: Save current program into the editor.
+- *install.bat*: Install all packages required in the current Version.
+- *run.bat*: Run currently saved gold file.
 
 #### Programming
 **Gold** is ran inside of the **.gold** file extension, so your directory would look something like this:   
 
-*.bat*   
-*Blank-Project*   
-*info*   
-*modules*   
-*myProjectSettings*      
-*node_modules*     
+*/.bat*   
+*/Blank-Project*   
+*/info*   
+*/modules*   
+*/myProjectSettings*      
+*/node_modules*     
 *package-lock.json*   
 *package.json*   
 *program.gold*   
@@ -86,9 +87,24 @@ var myGoldProgram = {
 export { myGoldProgram };
 ```
 
+##### Advanced Programming
 
+Think you got the hang of the **Gold** language? There are still many different things that you can do with the **Gold** language. Check out some tutorials inside of the wiki, or follow the basic Coding guide Below:
 
-##### Contribution
+```javascript
+
+fun // add, sub, mul, div, if, log, var, logVar
+saveToVar // true/false
+val1 // Your First Value, used for logging things and math equations.
+val2 // Second Value for math equations.
+slot // Variable slot for saving. Possibilites are 0, 1, or 2.
+type // =, >, <, ! 
+logvaluetrue // What to log if your if statement is true
+logvaluefalse // What to log if your if statement is false
+
+```
+
+###### Contribution
 
 Wanting to Contribute to **Gold**? Check out the *contributing.md* inside of the info folder to learn how you can contribute to the **Gold** language.
 
