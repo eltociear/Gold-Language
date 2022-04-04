@@ -1,5 +1,5 @@
-export function say(text) {
+export function randomNum(max) {
 
-    console.log(text);
+    return Math.floor(Math.random() * max);
 
 }
