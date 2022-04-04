@@ -4,6 +4,7 @@ import { myGoldProgramDirectory } from "../../myProjectSettings/settings.js";
 import { say } from '../scripts/util/say.js';
 
 import prompt from 'prompt';
+import colors from 'colors';
 
 const destination = './modules/program.js';
 const myGoldProgramArea = myGoldProgramDirectory;
