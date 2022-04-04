@@ -106,7 +106,7 @@ logvaluefalse // What to log if your if statement is false
 
 # Contribution
 
-Wanting to Contribute to **Gold**? Check out the *contributing.md* inside of the info folder to learn how you can contribute to the **Gold** language.
+Wanting to Contribute to **Gold**? Check out the *contributing.md* inside of the */info* folder to learn how you can contribute to the **Gold** language.
 
 # Used By
 
