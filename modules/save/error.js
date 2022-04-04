@@ -1,24 +1,48 @@
-const errorCodes = [
+const shellCommands = [
     {
-        code: 0,
-        des: "INVALID_ERROR"
+        name: "help",
+        des: "> Search for help on any type of command."
     },
     {
-        code: 1,
-        des: "File does not end with .gold!"
+        name: "save / copy",
+        des: "> Save data from your .gold program to the JS file."
     },
     {
-        code: 2,
-        des: "Type does not exist!"
+        name: "exit / quit / leave",
+        des: "> Exit the shell."
     },
     {
-        code: 3,
-        des: "Invalid Response!"
+        name: "github",
+        des: "> Opens the github repository in a new tab."
     },
     {
-        code: 4,
-        des: "Egg slot is already taken up!"
+        name: "author",
+        des: "> Opens Colack's Github link."
+    },
+    {
+        name: "reload",
+        des: "> Reloads the entire console."
+    },
+    {
+        name: "amIOn",
+        des: "> Checks to see if the console is on."
+    },
+    {
+        name: "credits",
+        des: "> Shows the credits for the console."
+    },
+    {
+        name: "clear",
+        des: "> Clears the console."
+    },
+    {
+        name: "ty",
+        des: "> Thanks the console."
+    },
+    {
+        name: "motd",
+        des: "> Displays current Message of the Day."
     }
 ];
 
-export { errorCodes };
+export { shellCommands };
