@@ -24,4 +24,4 @@ Interpreters can be used to read your **.gold** file. Take for example, the defa
 
 This interpreter just has some basic commands that you can run.
 
-If you want to make your own interpreter with custom commands, put them inside of the */interpreters* folder.
+If you want to make your own interpreter with custom commands, put them inside of the *modules/interpreters* folder.
