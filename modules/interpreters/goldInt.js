@@ -1,42 +1,87 @@
 import fs from 'fs';
-import { myGoldProgram } from '../program.js';
 import { errorCodes } from '../save/error.js';
 import { say } from '../scripts/util/say.js';
+import prompt from 'prompt';
+import { myGoldProgram } from '../program.js';
 
-// GoldInt Version 1.0 //
+var myVariables = [
+    {
+        val: ""
+    },
+    {
+        val: ""
+    },
+    {
+        val: ""
+    }
+];
 
 var currentError = {
     code: 0,
     des: ""
 }
 
-var myEgg = {
-    
-}
+var name = myGoldProgram;
 
-export function goldLoad(fileName) {
+for (var i = 0; i < name.ex.length; i++) {
 
-    var name = myGoldProgram;
+    if (name.ex[i].fun == 'add') {
 
-    for (var i = 0; i < name.ex.length; i++) {
+        if (name.ex[i].saveToVar == true) {
 
-        if (name.ex[i].fun == 'add') {
+            myVariables[name.ex[i].slot].val = name.ex[i].val1 + name.ex[i].val2;
+
+            say(myVariables[name.ex[i].slot].val);
+
+        } else {
 
             say(name.ex[i].val1 + name.ex[i].val2);
 
-        } else if (name.ex[i].fun == 'sub') {
+        }
+
+    } else if (name.ex[i].fun == 'sub') {
+
+        if (name.ex[i].saveToVar == true) {
+
+            myVariables[name.ex[i].slot].val = name.ex[i].val1 - name.ex[i].val2;
+
+            say(myVariables[name.ex[i].slot].val);
+
+        } else {
 
             say(name.ex[i].val1 - name.ex[i].val2);
 
-        } else if (name.ex[i].fun == "mul") {
+        }
+
+    } else if (name.ex[i].fun == "mul") {
+
+        if (name.ex[i].saveToVar == true) {
+
+            myVariables[name.ex[i].slot].val = name.ex[i].val1 * name.ex[i].val2;
+
+            say(myVariables[name.ex[i].slot].val);
+
+        } else {
 
             say(name.ex[i].val1 * name.ex[i].val2);
 
-        } else if (name.ex[i].fun == "div") {
+        }
+
+    } else if (name.ex[i].fun == "div") {
+
+        if (name.ex[i].saveToVar == true) {
+
+            myVariables[name.ex[i].slot].val = name.ex[i].val1 / name.ex[i].val2;
+
+            say(myVariables[name.ex[i].slot].val);
+
+        } else {
 
             say(name.ex[i].val1 / name.ex[i].val2);
 
-        } else if (name.ex[i].fun == "if") {
+        }
+
+    } else if (name.ex[i].fun == "if") {
 
             if (name.ex[i].type == "=") {
 
@@ -88,12 +133,24 @@ export function goldLoad(fileName) {
 
             }
 
-        } else if (name.ex[i].fun == "log") {
+    } else if (name.ex[i].fun == "log") {
 
-            say(name.ex[i].val1);
+        say(name.ex[i].val1);
 
-        } 
+    } else if (name.ex[i].fun == "var") {
 
-    }   
+        myVariables[name.ex[i].slot].val = name.ex[i].val1;
 
-}
+    } else if (name.ex[i].fun == "logVar") {
+
+        console.log(myVariables[name.ex[i].slot].val);
+
+    }
+
+}   
+
+prompt.start();
+
+prompt.get(['press anything to continue'], function (err, result) {
+
+}) ;
