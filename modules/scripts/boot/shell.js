@@ -217,7 +217,7 @@ export function goldShell() {
 
                 if (currentVersion < json.version) {
 
-                    open('https://github.com/Shining-Gold-Studios/Gold-Language');
+                    open('https://github.com/Shining-Gold-Studios/Gold-Language/releases');
 
                     goldShellLoad();
 
