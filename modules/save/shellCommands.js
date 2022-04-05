@@ -4,19 +4,11 @@ const shellCommands = [
         des: "> Search for help on any type of command."
     },
     {
-        name: "save",
+        name: "save / copy",
         des: "> Save data from your .gold program to the JS file."
     },
     {
-        name: "run",
-        des: "> Run your pre-determined program."
-    },
-    {
-        name: "delete",
-        des: "> Clear the current Program JS File."
-    },
-    {
-        name: "exit",
+        name: "exit / quit / leave",
         des: "> Exit the shell."
     },
     {
@@ -26,6 +18,30 @@ const shellCommands = [
     {
         name: "author",
         des: "> Opens Colack's Github link."
+    },
+    {
+        name: "reload",
+        des: "> Reloads the entire console."
+    },
+    {
+        name: "amIOn",
+        des: "> Checks to see if the console is on."
+    },
+    {
+        name: "credits",
+        des: "> Shows the credits for the console."
+    },
+    {
+        name: "clear",
+        des: "> Clears the console."
+    },
+    {
+        name: "ty",
+        des: "> Thanks the console."
+    },
+    {
+        name: "motd",
+        des: "> Displays current Message of the Day."
     }
 ];
 
