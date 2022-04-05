@@ -15,7 +15,7 @@ export function copyContent(fileName, dest) {
 
     } catch (err) {
 
-        say()
+        say();
 
         return false;
 
