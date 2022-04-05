@@ -46,7 +46,8 @@ npm run index
 - *index.bat*: Boot directly into the Index.js File.
 - *save.bat*: Save current program into the editor.
 - *install.bat*: Install all packages required in the current Version.
-- *run.bat*: Run currently saved gold file.
+- *regInt.bat*: Run installed gold program using the Regular Interpreter.
+- *engInt.bat*: Run installed gold program using the English Interpreter.
 
 # Programming
 **Gold** is ran inside of the **.gold** file extension, so your directory would look something like this:   
