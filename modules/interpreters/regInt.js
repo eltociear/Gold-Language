@@ -161,17 +161,17 @@ for (var i = 0; i < name.ex.length - 1; i++) {
 
     }
 
-}   
-
-if (name.ex[x].fun != "end") {
-
-    say('Error: Program Does not End!');
-
-} else {
+    if (name.ex[x - 1].fun == "end") {
 
     
 
-}
+    } else {
+    
+        say('Error: Program Does not End!');
+    
+    }
+
+}   
 
 prompt.start();
 
