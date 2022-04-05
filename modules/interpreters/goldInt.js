@@ -21,9 +21,23 @@ var currentError = {
     des: ""
 }
 
+const thisInt = "regInt";
+
 var name = myGoldProgram;
 
-for (var i = 0; i < name.ex.length; i++) {
+const x = name.ex.length;
+
+if (thisInt == name.int) {
+
+
+
+} else {
+
+    say("< Warning: This Program is not build for this interpreter!");
+
+}
+
+for (var i = 0; i < name.ex.length - 1; i++) {
 
     if (name.ex[i].fun == 'add') {
 
@@ -149,8 +163,18 @@ for (var i = 0; i < name.ex.length; i++) {
 
 }   
 
+if (name.ex[x].fun != "end") {
+
+    say('Error: Program Does not End!');
+
+} else {
+
+    
+
+}
+
 prompt.start();
 
 prompt.get(['press anything to continue'], function (err, result) {
 
-}) ;
+});
