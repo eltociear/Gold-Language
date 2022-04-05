@@ -52,6 +52,7 @@ npm run index
 **Gold** is ran inside of the **.gold** file extension, so your directory would look something like this:   
 
 */.bat*   
+*/interpreters*   
 */Blank-Project*   
 */info*   
 */modules*   
@@ -61,24 +62,29 @@ npm run index
 *package.json*   
 *program.gold*   
 *README.md*   
-*run.bat*    
 *shell.bat*  
-
 
 The **.gold** file is your program.   
 
-Your **Gold** Program is interpreted using the interpreter you have, or the default one if you don't have a one.
+Your **Gold** Program is interpreted using the interpreter you have, or the default one if you don't have a one.   
 
-An Basic **Gold** Program would look something like this:
+An Basic **Gold** Program would look something like this:   
 
 ```javascript
+
+// Built for Reg Interpreter.
+
 var myGoldProgram = {
     name: "Example Gold Program",
     des: "An Example Gold Program for the README file.",
+    int: "regInt",
     ex: [
         {
             fun: "log",
             val1: "Hello World!"
+        },
+        {
+            fun: "end"
         }
     ]
 };
@@ -92,6 +98,8 @@ Think you got the hang of the **Gold** language? There are still many different 
 
 ```javascript
 
+// Functions for the Regular Interpreter, not the English one. 
+
 fun // add, sub, mul, div, if, log, var, logVar
 saveToVar // true/false
 val1 // Your First Value, used for logging things and math equations.
@@ -100,7 +108,7 @@ slot // Variable slot for saving. Possibilites are 0, 1, or 2.
 type // =, >, <, ! 
 logvaluetrue // What to log if your if statement is true
 logvaluefalse // What to log if your if statement is false
-
+endProgram // ALWAYS END YOUR PROGRAM WITH THIS!!!!
 ```
 
 # Contribution
@@ -117,4 +125,3 @@ This project is used in the following projects:
 
 Have any more questions? Join our Discord - [Discord](https://discord.gg/CUJrdW5vKn)
 
-- /Colack
