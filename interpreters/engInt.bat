@@ -1,1 +1,1 @@
-node ./modules/interpreters/engInt.js
+npm run engInt
