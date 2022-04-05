@@ -1,11 +1,11 @@
 # Functions
 
-execute - add, sub, mul, div, if, log, var, logVar
-saveToVariable - true/false
-value1
-value2
-variableSlot
-ifStatementType - =, >, <, !
-logIfValueTrue
-logIfValueFalse
-endProgram - ALWAYS END YOUR PROGRAM WITH THIS!!!!
+fun - add, sub, mul, div, if, log, var, logVar    
+saveToVar - true/false     
+val1    
+val2   
+slot    
+type - =, >, <, !     
+logvaluetrue    
+logvaluefalse    
+end - ALWAYS END YOUR PROGRAM WITH THIS!!!!    
