@@ -10,7 +10,9 @@
     "delete": "node ./modules/scripts/files/delete.js",
     "save": "node ./modules/scripts/files/save.js",
     "version": "node ./modules/scripts/util/currentVersion.js",
-    "shell": "node ./modules/scripts/boot/shell.js"
+    "shell": "node ./modules/scripts/boot/shell.js",
+    "regInt": "node ./modules/interpreters/regInt.js",
+    "engInt": "node ./modules/interpreters/engInt.js"
   },
   "author": "Colack",
   "license": "ISC",
