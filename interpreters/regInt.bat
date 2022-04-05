@@ -1,1 +1,1 @@
-node ./modules/interpreters/regInt.js
+npm run regInt
