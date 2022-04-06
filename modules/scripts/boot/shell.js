@@ -8,6 +8,7 @@ import { amIOn } from '../mis/amIOn.js';
 import { randomNum } from '../util/random.js';
 import { currentVersion } from '../../save/currentVersion.js';
 import { colorsOn } from '../../save/colorsOn.js';
+import { helloWrd } from '../mis/helloWrd.js';
 
 import prompt from 'prompt';
 import open  from 'open';
@@ -165,6 +166,10 @@ function goldShellLoad() {
 
                 goldShellLoad();
 
+            } else if (result.shell == "helloWrd") {
+
+                helloWrd();
+                
             } else {
 
                 say('< Command Does Not Exist, use ' + colors.yellow('help') + ' to get started.');
