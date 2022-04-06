@@ -1,14 +1,14 @@
 {
   "name": "gold-language",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gold Coding Language",
   "main": "./modules/scripts/boot/shell.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Hello World!",
     "setup": "node ./modules/scripts/npm/setup.js",
     "index": "node ./modules/util/index.js",
     "delete": "node ./modules/scripts/files/delete.js",
-    "save": "node ./modules/scripts/files/save.js",
+    "save": "node ./scripts/files/save.js",
     "version": "node ./modules/scripts/util/currentVersion.js",
     "shell": "node ./modules/scripts/boot/shell.js",
     "regInt": "node ./modules/interpreters/regInt.js",
