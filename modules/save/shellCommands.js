@@ -42,6 +42,10 @@ const shellCommands = [
     {
         name: "motd",
         des: "> Displays current Message of the Day."
+    },
+    {
+        name: "helloWrd",
+        des: "> Displays Hello World in the Console."
     }
 ];
 
