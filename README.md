@@ -56,9 +56,9 @@ npm run index
 */interpreters*   
 */Blank-Project*   
 */info*   
-*/modules*   
-*/myProjectSettings*      
-*/node_modules*     
+*/modules*         
+*/node_modules*
+*/programs*     
 *package-lock.json*   
 *package.json*   
 *program.gold*   
@@ -101,20 +101,22 @@ Think you got the hang of the **Gold** language? There are still many different 
 
 // Functions for the Regular Interpreter, not the English one. 
 
-fun // add, sub, mul, div, if, log, var, logVar
-saveToVar // true/false
-val1 // Your First Value, used for logging things and math equations.
-val2 // Second Value for math equations.
-slot // Variable slot for saving. Possibilites are 0, 1, or 2.
-type // =, >, <, ! 
-logvaluetrue // What to log if your if statement is true
-logvaluefalse // What to log if your if statement is false
-endProgram // ALWAYS END YOUR PROGRAM WITH THIS!!!!
+fun // - add, sub, mul, div, if, log, var, logVar, input, xLog, egg, shell, crack, kill, ifVar    
+saveToVar // - true/false     
+val1    
+val2   
+slot    
+slot1   
+slot2   
+type // - =, >, <, !     
+logvaluetrue    
+logvaluefalse    
+variableArea // - Center, First, Last   
 ```
 
 # Contribution
 
-Wanting to Contribute to **Gold**? Check out the *contributing.md* inside of the */info* folder to learn how you can contribute to the **Gold** language.
+Wanting to Contribute to **Gold**? Check out the *README.md* inside of the */info* folder to learn how you can contribute to the **Gold** language.
 
 # Used By
 
