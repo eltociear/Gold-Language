@@ -151,13 +151,17 @@ for (var i = 0; i < name.execute.length; i++) {
 
         say(name.execute[i].value1);
 
-    } else if (name.ex[i].fun == "var") {
+    } else if (name.execute[i].action == "var") {
 
         myVariables[name.execute[i].variableSlot].val = name.execute[i].value1;
 
-    } else if (name.ex[i].fun == "logVar") {
+    } else if (name.execute[i].action == "logVar") {
 
         console.log(myVariables[name.execute[i].variableSlot].val);
+
+    } else if (name.execute[i].action == "input") {
+
+        myVariables[name.execute[i].variableSlot].val = process.argv.slice(2).toString();
 
     }
 
