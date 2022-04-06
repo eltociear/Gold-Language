@@ -1,6 +1,6 @@
 import { errorCodes } from "../save/error.js";
 import { goldShell } from "../scripts/boot/shell.js";
-import { myGoldProgramDirectory } from "../../myProjectSettings/settings.js";
+import { myGoldProgramDirectory } from '../../programs/currentDir.js';
 import { say } from '../scripts/util/say.js';
 
 import prompt from 'prompt';
