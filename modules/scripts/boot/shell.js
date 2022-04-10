@@ -7,14 +7,36 @@ import { shellCommands } from '../../save/shellCommands.js';
 import { amIOn } from '../mis/amIOn.js';
 import { randomNum } from '../util/random.js';
 import { currentVersion } from '../../save/currentVersion.js';
-import { colorsOn } from '../../save/colorsOn.js';
 import { helloWrd } from '../mis/helloWrd.js';
+import { version } from '../version/version.js';
 
 import prompt from 'prompt';
 import open  from 'open';
 import colors from 'colors';
 import https from 'https';
 import fs from 'fs';
+
+// Code By Jack
+
+/*
+
+⠀⣞⢽⢪⢣⢣⢣⢫⡺⡵⣝⡮⣗⢷⢽⢽⢽⣮⡷⡽⣜⣜⢮⢺⣜⢷⢽⢝⡽⣝
+⠸⡸⠜⠕⠕⠁⢁⢇⢏⢽⢺⣪⡳⡝⣎⣏⢯⢞⡿⣟⣷⣳⢯⡷⣽⢽⢯⣳⣫⠇
+⠀⠀⢀⢀⢄⢬⢪⡪⡎⣆⡈⠚⠜⠕⠇⠗⠝⢕⢯⢫⣞⣯⣿⣻⡽⣏⢗⣗⠏⠀
+⠀⠪⡪⡪⣪⢪⢺⢸⢢⢓⢆⢤⢀⠀⠀⠀⠀⠈⢊⢞⡾⣿⡯⣏⢮⠷⠁⠀⠀
+⠀⠀⠀⠈⠊⠆⡃⠕⢕⢇⢇⢇⢇⢇⢏⢎⢎⢆⢄⠀⢑⣽⣿⢝⠲⠉⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⡿⠂⠠⠀⡇⢇⠕⢈⣀⠀⠁⠡⠣⡣⡫⣂⣿⠯⢪⠰⠂⠀⠀⠀⠀
+⠀⠀⠀⠀⡦⡙⡂⢀⢤⢣⠣⡈⣾⡃⠠⠄⠀⡄⢱⣌⣶⢏⢊⠂⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢝⡲⣜⡮⡏⢎⢌⢂⠙⠢⠐⢀⢘⢵⣽⣿⡿⠁⠁⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠨⣺⡺⡕⡕⡱⡑⡆⡕⡅⡕⡜⡼⢽⡻⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣼⣳⣫⣾⣵⣗⡵⡱⡡⢣⢑⢕⢜⢕⡝⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⣴⣿⣾⣿⣿⣿⡿⡽⡑⢌⠪⡢⡣⣣⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⡟⡾⣿⢿⢿⢵⣽⣾⣼⣘⢸⢸⣞⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠁⠇⠡⠩⡫⢿⣝⡻⡮⣒⢽⠋⠀⠀⠀⠀
+
+    No Shell?
+
+*/
 
 function goldShellLoad() {
 
@@ -24,19 +46,7 @@ function goldShellLoad() {
 
         if (result.shell != undefined) {
 
-            if (result.shell == "save" || result.shell == "copy") {
-
-                copyContent(myGoldProgramArea, destination);
-    
-                goldShellLoad();
-    
-            } else if (result.shell == "delete" || result.shell == "remove") {
-                    
-                deleteContent(destination);
-    
-                goldShellLoad();
-    
-            } else if (result.shell == "exit" || result.shell == "quit" || result.shell == "leave") {
+            if (result.shell == "exit" || result.shell == "quit" || result.shell == "leave") {
     
                 say(colors.yellow('< Closing Shell'));
     
@@ -169,6 +179,51 @@ function goldShellLoad() {
             } else if (result.shell == "helloWrd") {
 
                 helloWrd();
+
+                goldShellLoad();
+                
+            } else if (result.shell == "version") {
+
+                console.log("Running on " + version.major + "." + version.minor);
+
+                goldShellLoad();
+
+            } else if (result.shell == "flip") {
+
+                goldShellLoad();
+
+            } else if (result.shell == "colors") {
+
+                let rawDataData = fs.readFileSync('./Gold-Loader/modules/JSON/colorsOn.json');
+                let studentData = JSON.parse(rawDataData);
+
+                if (studentData.colors == true) {
+
+                    let myData = {
+                        colors: false
+                    };
+
+                    let data = JSON.stringify(myData);
+
+                    fs.writeFileSync('./Gold-Loader/modules/JSON/colorsOn.json', data);
+
+                    console.log('Colors Disabled');
+
+                } else if (studentData.colors == false) {
+
+                    let myData = {
+                        colors: true
+                    };
+
+                    let data = JSON.stringify(myData);
+
+                    fs.writeFileSync('./Gold-Loader/modules/JSON/colorsOn.json', data);
+
+                    console.log('Colors Enabled!');
+
+                }
+
+                goldShellLoad();
                 
             } else {
 
@@ -198,11 +253,31 @@ export function goldShell() {
 
     colors.disable();
 
-    say(colors.yellow('< Gold-Shell'));
-    say(colors.yellow('< 2022 Version'));
-    say(colors.yellow('< Code By Jack'));
+    console.log(
+        "\n   ooooooo8             o888        oooo       oooooooo8 oooo                   o888  o888\n",           
+        "o888    88    ooooooo   888   ooooo888       888         888ooooo   ooooooooo8  888   888\n",                   
+        "888    oooo 888     888 888 888    888        888oooooo  888   888 888oooooo8   888   888\n",                                 
+        "888o    88  888     888 888 888    888               888 888   888 888          888   888\n",                                 
+        " 888ooo888    88ooo88  o888o  88ooo888o      o88oooo888 o888o o888o  88oooo888 o888o o888o\n"                       
+    );
+
+    console.log("Code By Jack");
     
     let url = "https://api.npoint.io/d177dce4fa0ef6f25aee";
+
+    let rawData = fs.readFileSync('./Gold-Loader/modules/JSON/colorsOn.json');
+    let student = JSON.parse(rawData);
+    
+    if (student.colors == true) {
+
+        colors.enable();
+
+    } else if (student.colors == false) {
+
+        colors.disable();
+
+    }
+
 
     https.get(url,(res) => {
 
