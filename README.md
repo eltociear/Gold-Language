@@ -10,85 +10,11 @@ edit and overall just being an very Permeable coding Language.
 
 
 
-## Programming
-
-**Gold** is ran inside of the **.gold** file extension.
-Example: Gold-JS
-Your directory would look something like this:   
-
-*./Gold-Loader*   
-*gold-save.exe*   
-*package-lock.json*   
-*package.json*   
-*program.gold*   
-*README.md*   
-*runner.js*
-*shell.bat*  
-
-The **.gold** file is your program.   
-
-Your **Gold** Program is interpreted using the interpreter you have, or the default one if you don't have a one.   
-
-An Basic **Gold** Program would look something like this:   
-
-```javascript
-
-// Built for Reg Interpreter.
-
-var myGoldProgram = {
-    name: "Example Gold Program",
-    des: "An Example Gold Program for the README file.",
-    int: "regInt",
-    ex: [
-        {
-            fun: "log",
-            val1: "Hello World!"
-        },
-        {
-            fun: "end"
-        }
-    ]
-};
-
-export { myGoldProgram };
-```
-
-
-
 ## Included Projects
 
 The **Gold** Language also includes the following Program:
 
 * [Gold-Save](https://github.com/Shining-Gold-Studios/Gold-Save)
-
-
-
-## Advanced Programming
-
-Think you got the hang of the **Gold** language? There are still many different things that you can do with the **Gold** language. Check out some tutorials inside of the wiki, or follow the basic Coding guide Below:
-
-```javascript
-
-// Functions for the Regular Interpreter, not the English one. 
-
-fun // - add, sub, mul, div, if, log, var, logVar, input, xLog, egg, shell, crack, kill, ifVar    
-saveToVar // - true/false     
-val1    
-val2   
-slot    
-slot1   
-slot2   
-type // - =, >, <, !     
-logvaluetrue    
-logvaluefalse    
-variableArea // - Center, First, Last   
-```
-
-
-
-## Contribution
-
-Wanting to Contribute to **Gold**? Check out the *README.md* inside of the */info* folder to learn how you can contribute to the **Gold** language.
 
 
 
