@@ -1,4 +1,0 @@
-/*
-    OoOoOoOoOoH~~ 
-    Spooky File
-*/
