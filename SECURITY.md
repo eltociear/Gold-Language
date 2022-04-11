@@ -17,4 +17,4 @@ To Report a Security Vulnerability, go to Issues, and create a new issue.
 
 - [ ] Works with the current supported versions.
 - [ ] Has a completed Comment at the top.
-- [ ] Complies to our [Contributing Guildlines]()
+- [ ] Complies to our [Contributing Guildlines](https://github.com/Shining-Gold-Studios/Gold-Language/blob/main/CONTRIBUTING.md)
