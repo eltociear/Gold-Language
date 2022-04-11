@@ -4,6 +4,14 @@ Hey There,
 We are excited to see that you want to help with the **Gold** programming language. The following are some ways that you can contribute to the language.   
 There are many ways that you can Contribute to this project, with many types of things you can create.  
 
+## Guidelines
+
+When Contributing, Either to a **Script, Interpreter,** or a **Security Flaw**, make sure that you follow these set Guidelines:
+
+- [ ] Works with Current supported Version.
+- [ ] Has a Completed comment at the top of the file.
+- [ ] Complies to our Contrbuting Guidelines.
+
 ## Scripts 
 
 Scripts are basic Functions that you can use to execute any type of code, this includes:   
