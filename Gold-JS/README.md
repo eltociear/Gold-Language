@@ -16,7 +16,10 @@
 
 
 
-# Gold-Language
+# Gold-JS
+
+**This Guide is for the *JavaScript* version of the *Gold* interpreter**   
+
 The **Gold** Programming Language is an Programming Language designed to be really easy to
 edit and overall just being an very Permeable coding Language.
 
