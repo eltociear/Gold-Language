@@ -7,6 +7,7 @@
 
 
 - [x] Color system for console.    
+- [x] Discord Integration  
 
 
 
@@ -14,7 +15,6 @@
 
 - [ ] Python Build  
 - [ ] New Interpreter  
-- [ ] Discord Integration  
 - [ ] Plugins  
 - [ ] Flip  
 - [ ] Program Linking/Kits  
