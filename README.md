@@ -16,38 +16,4 @@
 
 
 
-# Gold-Language
-The **Gold** Programming Language is an Programming Language designed to be really easy to
-edit and overall just being an very Permeable coding Language.
-
-You can check out our website [Here.](https://sites.google.com/view/gold-language/home)
-
-
-
-## Included Projects
-
-The **Gold** Language also includes the following Program:
-
-* [Gold-Save](https://github.com/Shining-Gold-Studios/Gold-Save)
-
-
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-
-
-## Used By
-
-This project is used in the following projects:
-
-- [Gold](https://github.com/Shining-Gold-Studios/Gold-Language)   
-
-
-
-## Final Note
-
-Have any more questions? Join our Discord - [Discord](https://discord.gg/CUJrdW5vKn)
-
-- /Colack
+# Contributers
