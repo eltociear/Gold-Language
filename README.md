@@ -17,8 +17,6 @@
 
 
 
-# Contributers
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
