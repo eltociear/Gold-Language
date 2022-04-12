@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "mexicanboi1",
+      "name": "mexicanboi1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/102683182?v=4",
+      "profile": "https://github.com/mexicanboi1",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Gold-Language",
+  "projectOwner": "Shining-Gold-Studios",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
