@@ -20,7 +20,7 @@
 The **Gold** Programming Language is an Programming Language designed to be really easy to
 edit and overall just being an very Permeable coding Language.
 
-You can check out our website [here.](https://sites.google.com/view/gold-language/home)
+You can check out our website [Here.](https://sites.google.com/view/gold-language/home)
 
 
 
