@@ -23,6 +23,23 @@
       ]
     },
     {
+      "login": "Shining-Gold-Studios",
+      "name": "Shining Gold Studios",
+      "avatar_url": "https://avatars.githubusercontent.com/u/102748819?v=4",
+      "profile": "https://github.com/Shining-Gold-Studios",
+      "contributions": [
+        "bug",
+        "blog",
+        "code",
+        "content",
+        "design",
+        "ideas",
+        "maintenance",
+        "projectManagement",
+        "test"
+      ]
+    },
+    {
       "login": "mexicanboi1",
       "name": "mexicanboi1",
       "avatar_url": "https://avatars.githubusercontent.com/u/102683182?v=4",
@@ -49,23 +66,6 @@
         "data",
         "content",
         "review"
-      ]
-    },
-    {
-      "login": "Shining-Gold-Studios",
-      "name": "Shining Gold Studios",
-      "avatar_url": "https://avatars.githubusercontent.com/u/102748819?v=4",
-      "profile": "https://github.com/Shining-Gold-Studios",
-      "contributions": [
-        "bug",
-        "blog",
-        "code",
-        "content",
-        "design",
-        "ideas",
-        "maintenance",
-        "projectManagement",
-        "test"
       ]
     }
   ],
