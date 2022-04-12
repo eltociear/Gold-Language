@@ -6,15 +6,6 @@
   "commit": false,
   "contributors": [
     {
-      "login": "mexicanboi1",
-      "name": "mexicanboi1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/102683182?v=4",
-      "profile": "https://github.com/mexicanboi1",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
       "login": "Colack",
       "name": "Jack Spencer",
       "avatar_url": "https://avatars.githubusercontent.com/u/76410718?v=4",
@@ -29,6 +20,15 @@
         "maintenance",
         "projectManagement",
         "test"
+      ]
+    },
+    {
+      "login": "mexicanboi1",
+      "name": "mexicanboi1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/102683182?v=4",
+      "profile": "https://github.com/mexicanboi1",
+      "contributions": [
+        "code"
       ]
     },
     {
