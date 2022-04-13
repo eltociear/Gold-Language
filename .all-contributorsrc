@@ -67,6 +67,16 @@
         "content",
         "review"
       ]
+    },
+    {
+      "login": "Hero333",
+      "name": "Hero333",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86078262?v=4",
+      "profile": "https://github.com/Hero333",
+      "contributions": [
+        "review",
+        "security"
+      ]
     }
   ],
   "contributorsPerLine": 7,
